@@ -11,25 +11,25 @@ const Portfolio = () => {
         My <span>Portfolio</span>
       </h2>
 
-       <h2 className="section__subtitle subtitle__center">
-          Internships and Certificates
-      </h2> 
-
-      <div className="portfolio__container container grid">
-        {internship.map((item) => {
-          return (<PortfolioItem key={item.id} {...item}/>)
-        })}
-      </div>
-
-      <div className="separator"></div>
-
-      <h3 className="section__subtitle subtitle__center">
+      <h2 className="section__subtitle subtitle__center">
         Projects
-      </h3>
+      </h2>
 
       <div className="portfolio__container container grid">
         {portfolio.map((item) => {
-          return (<PortfolioItem key={item.id} {...item}/>)
+          return (<PortfolioItem key={item.id} {...item} />)
+        })}
+      </div>
+
+      <div className="portfolio_separator"></div>
+
+      <h3 className="section__subtitle subtitle__center">
+        Internships and Certificates
+      </h3>
+
+      <div className="portfolio__container container grid">
+        {internship.map((item) => {
+          return (<PortfolioItem key={item.id} {...item} />)
         })}
       </div>
 
