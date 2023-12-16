@@ -25,7 +25,6 @@ import intern3 from './assets/HTML-1.png'
 import intern4 from './assets/AI_ML.png';
 
 
-
 import Theme1 from './assets/purple.png';
 import Theme2 from './assets/red.png';
 import Theme3 from './assets/blueviolet.png';

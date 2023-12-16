@@ -33,7 +33,6 @@ const Portfolio = () => {
         })}
       </div>
 
-
     </section>
 
   )
