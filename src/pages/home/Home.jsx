@@ -17,7 +17,7 @@ const Home = () => {
           </h3>
 
           <p className="home__description">
-          " I'm a frontend developer with a strong command of HTML, CSS, and JavaScript,
+          " I'm a web developer with a strong command of JavaScript,
           I create engaging websites that seamlessly blend with functionality."
           </p>
 

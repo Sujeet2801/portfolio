@@ -56,8 +56,8 @@
 }
 
 .separator {
-  border-top: 1px solid var(--border-color);
-  max-width: 40%;
+  border-top: 2px solid var(--border-color);
+  max-width: 90%;
   margin: 72px auto 56px;
 }
 
