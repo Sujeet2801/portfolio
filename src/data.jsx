@@ -13,8 +13,8 @@ import { FiFileText, FiExternalLink } from 'react-icons/fi';
 
 import Work1 from './assets/textmodulator.png'
 import Work2 from './assets/personal.png';
-// import Work3 from './assets/project-3.jpeg';
-// import Work4 from './assets/project-4.jpeg';
+import Work3 from './assets/newsmonkey.png';
+import Work4 from './assets/final_year.png';
 // import Work5 from './assets/project-5.jpg';
 //import Work6 from './assets/project-6.jpg';
 
@@ -257,6 +257,34 @@ export const portfolio = [
 
   {
     id: 1,
+    img: Work4,
+    title: 'spendWise',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Website',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Technology : ',
+        desc: 'React.js, Node.js',
+      },
+      {
+        icon: <FaGithub />,
+        title: 'Github : ',
+        desc: 'https://github.com/Sujeet2801/spendWise_Website',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: 'https://spend-wise-website-nine.vercel.app/',
+      },
+    ],
+  },
+
+  {
+    id: 2,
     img: Work2,
     title: 'Portfolio',
     details: [
@@ -284,7 +312,7 @@ export const portfolio = [
   },
 
   {
-    id: 2,
+    id: 3,
     img: Work1,
     title: 'Text Modulator',
     details: [
@@ -316,29 +344,29 @@ export const portfolio = [
 
 
   {
-    id: 3,
-    // img: Work3,
-    title: 'Video Editing',
+    id: 4,
+    img: Work3,
+    title: 'News Webite',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Video',
-      },
-      {
-        icon: <FaGithub />,
-        title: 'Github : ',
-        desc: 'Dribble',
+        desc: 'Website',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Premium',
+        desc: 'React JS',
+      },
+      {
+        icon: <FaGithub />,
+        title: 'Github : ',
+        desc: 'https://github.com/Sujeet2801/newsmokey',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://newsmokey.vercel.app/',
       },
     ],
   },
